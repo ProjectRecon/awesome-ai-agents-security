@@ -25,7 +25,6 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Tools that sit between the agent and the world to filter traffic, prevent unauthorized tool access, and block prompt injections.*
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
-- **[PhantomWall](https://github.com/c77-source/phantomwall)** - A lightweight open-source firewall that sits in front of your agent to detect prompt injections and prevent data exfiltration attempts in real-time.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
 
 ## ⚔️ Red Teaming & Vulnerability Scanners
@@ -36,7 +35,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Agentic Security](https://github.com/msoedov/agentic_security)** - A dedicated vulnerability scanner for agent workflows and LLMs capable of running multi-step jailbreaks and fuzzing attacks against agent logic.
 - **[Garak](https://github.com/leondz/garak)** - The "Nmap for LLMs." A vulnerability scanner that probes models for hallucination, data leakage, and prompt injection susceptibilities.
 - **[A2A Scanner](https://github.com/cisco-ai-defense/a2a-scanner)** - A scanner by Cisco designed to inspect "Agent-to-Agent" communication protocols for threats, validating agent identities and ensuring compliance with communication specs.
-- **[Cybersecurity AI (CAI)](https://github.com/Cybersecurity-AI/CAI)** - A framework for building specialized security agents for offensive and defensive operations, often used in CTF (Capture The Flag) scenarios.
+- **[Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)** - A framework for building specialized security agents for offensive and defensive operations, often used in CTF (Capture The Flag) scenarios.
 
 ## 🔍 Static Analysis & Linters
 *Tools to analyze agent configuration and logic code before deployment.*
