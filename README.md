@@ -62,7 +62,6 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
 
-- **[InjecAgent](https://github.com/hku-nlp/InjecAgent)** - A benchmark designed to evaluate the vulnerability of tool-integrated LLM agents to indirect prompt injection attacks.
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
 
 ## 🆔 Identity & Authentication
