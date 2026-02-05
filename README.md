@@ -26,6 +26,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
+- **[OpenClaw Security Suite](https://github.com/AtlasPA/openclaw-security)** - An open-source, 11-tool defensive security suite for AI agent workspaces. Covers workspace integrity verification, secret scanning, prompt injection defense, supply chain analysis, network DLP, permission auditing, credential lifecycle management, compliance enforcement, hash-chained audit trails, cryptographic signing, and incident response. Pure Python stdlib with zero dependencies; runs entirely locally.
 
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools to test agents for security flaws, loop conditions, and unauthorized actions.*
