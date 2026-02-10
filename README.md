@@ -34,6 +34,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[PyRIT](https://github.com/Azure/PyRIT)** - Microsoft’s open-source red teaming framework for generative AI. It automates multi-turn adversarial attacks to test if an agent can be coerced into harmful behavior.
 - **[Agentic Security](https://github.com/msoedov/agentic_security)** - A dedicated vulnerability scanner for agent workflows and LLMs capable of running multi-step jailbreaks and fuzzing attacks against agent logic.
 - **[Garak](https://github.com/leondz/garak)** - The "Nmap for LLMs." A vulnerability scanner that probes models for hallucination, data leakage, and prompt injection susceptibilities.
+- **[PwnClaw](https://pwnclaw.com)** ([GitHub](https://github.com/ClawdeRaccoon/pwnclaw)) - An AI agent security testing platform with 112 real-world attacks across 14 categories (prompt injection, jailbreaks, MCP poisoning, data exfiltration, social engineering, agency hijacking). No API keys needed; AI-powered judge; CI/CD API and GitHub Action.
 - **[A2A Scanner](https://github.com/cisco-ai-defense/a2a-scanner)** - A scanner by Cisco designed to inspect "Agent-to-Agent" communication protocols for threats, validating agent identities and ensuring compliance with communication specs.
 - **[Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)** - A framework for building specialized security agents for offensive and defensive operations, often used in CTF (Capture The Flag) scenarios.
 
