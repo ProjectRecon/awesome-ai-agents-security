@@ -26,6 +26,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
+- **[PolicyLayer Intercept](https://github.com/policylayer/intercept)** - Transparent MCP proxy that enforces YAML policies on every tool call before it reaches upstream. Supports rate limits, spend caps, argument validation, unconditional blocks, and full audit logging. Drop-in with no agent or server changes.
 
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools to test agents for security flaws, loop conditions, and unauthorized actions.*
