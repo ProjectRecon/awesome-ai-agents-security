@@ -44,6 +44,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Agent Bound](https://github.com/ElPaisano/agent-bound)** - A design-time analysis tool that calculates "Agentic Entropy"—a metric to quantify the unpredictability and risk of infinite loops or unconstrained actions in agent architectures.
 - **[Checkov](https://github.com/bridgecrewio/checkov)** - While primarily for IaC, Checkov includes policies for scanning AI infrastructure and configurations to prevent misconfigurations in deployment.
 
+- **[Firmis Scanner](https://github.com/riteshkew/firmis-scanner)** - Full-lifecycle security CLI for AI agents: 224 rules across 8 platforms, runtime monitoring hooks (Claude Code, Gemini CLI, Cursor), ML-based behavioral scoring, auto-fix engine, and compliance mapping (SOC2, AI Act, GDPR, NIST, OWASP).
 ## 📦 Sandboxing & Isolation Environments
 *Secure runtimes to prevent agents from damaging the host system during code execution.*
 
