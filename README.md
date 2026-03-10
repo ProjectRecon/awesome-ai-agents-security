@@ -67,6 +67,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
 
+- **[AIP (Agent Identity Protocol)](https://github.com/The-Nexus-Guard/aip)** - Cryptographic identity and trust infrastructure for AI agents. Provides Ed25519-based DIDs, challenge-response verification, a trust network via vouching, and end-to-end encrypted messaging. Integrates with LangChain, CrewAI, and AutoGen via a one-line `ensure_identity()` call.
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 
 ---
