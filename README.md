@@ -68,6 +68,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Tools to manage agent identity (non-human identities).*
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
+- **[AIP (Agent Identity Protocol)](https://github.com/The-Nexus-Guard/aip)** - Cryptographic identity infrastructure for AI agents. Ed25519 keypairs, decentralized identifiers (DIDs), signed messages, vouch-based trust chains, and cross-protocol DID resolution. 645 tests, live API.
 
 ---
 
