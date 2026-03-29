@@ -58,6 +58,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** - NVIDIA’s toolkit for adding programmable rails to LLM-based apps. It ensures agents stay on topic, avoid jailbreaks, and adhere to defined safety policies.
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
+- **[SidClaw](https://github.com/sidclawhq/platform)** - Approval and accountability layer for agentic AI providing identity, policy engine, human-in-the-loop approval workflows, and tamper-proof hash-chain audit trail with 13 framework integrations.
 
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
