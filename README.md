@@ -68,6 +68,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Tools to manage agent identity (non-human identities).*
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
+- **[AgentVeil Protocol](https://agentveil.dev)** - A decentralized trust layer for multi-agent systems that provides cryptographic identity (W3C DID/Ed25519), multi-tier verification, and EigenTrust reputation across agent boundaries. Includes sybil-resistant attestations and an immutable IPFS-anchored audit trail for cross-organization accountability.
 
 ---
 
