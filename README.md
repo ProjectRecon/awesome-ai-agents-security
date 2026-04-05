@@ -58,6 +58,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** - NVIDIA’s toolkit for adding programmable rails to LLM-based apps. It ensures agents stay on topic, avoid jailbreaks, and adhere to defined safety policies.
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
+- **[Haldir](https://github.com/ExposureGuard/haldir)** - MCP-native governance layer for AI agents. Scoped sessions with spend limits (Gate), AES-encrypted secrets (Vault), immutable audit trail with anomaly detection (Watch), and proxy mode that intercepts every tool call for policy enforcement. Human-in-the-loop approvals, webhooks, 10 MCP tools. [haldir.xyz](https://haldir.xyz)
 
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
@@ -68,6 +69,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Tools to manage agent identity (non-human identities).*
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
+- **[Haldir Gate](https://github.com/ExposureGuard/haldir)** - Agent identity via scoped sessions with permissions, spend limits, and TTL enforcement. Every tool call requires a valid session. MCP-native with proxy mode for mandatory enforcement. [haldir.xyz](https://haldir.xyz)
 
 ---
 
