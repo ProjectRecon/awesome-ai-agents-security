@@ -59,6 +59,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 
+- **[Asqav](https://github.com/jagmarques/asqav-sdk)** - Quantum-safe audit trails for AI agents. ML-DSA-65 signed, hash-chained action records with policy enforcement and threat detection. Integrates with LangChain, CrewAI, OpenAI Agents, Haystack.
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
 
