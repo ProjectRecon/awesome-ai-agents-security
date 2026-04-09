@@ -68,6 +68,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Tools to manage agent identity (non-human identities).*
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
+- **[Agent Passport System](https://github.com/aeoess/agent-passport-system)** - Open protocol for AI agent identity, scoped delegation, and enforcement. Ed25519 cryptographic identity, delegation chains with monotonic narrowing, 3-signature action chain (intent → policy evaluation → receipt), 4-gate commerce authorization, cascade revocation, Values Floor governance, and Merkle-committed audit settlements. 103 modules, 2,000+ tests. Apache-2.0. `npm install agent-passport-system`
 
 ---
 
