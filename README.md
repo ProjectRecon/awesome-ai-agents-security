@@ -26,6 +26,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
+- **[Omega Walls](https://github.com/synqratech/omega-walls)** - Open-source stateful prompt injection defense for autonomous agents and RAG pipelines. Acts as a runtime trust boundary across untrusted content, context, memory, and tools to detect distributed attacks and block unsafe actions.
 
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools to test agents for security flaws, loop conditions, and unauthorized actions.*
