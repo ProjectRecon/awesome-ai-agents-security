@@ -9,6 +9,7 @@ A curated list of open-source tools, frameworks, and resources for securing auto
 This list is organized by the **security lifecycle** of an autonomous agent, covering red teaming, runtime protection, sandboxing, and governance.
 
 ## 📖 Table of Contents
+- [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) – An official OWASP security framework for protecting AI agent memory from poisoning, injection, and exfiltration attacks. Provides detection middleware, sanitization hooks, and audit logging for LangChain, LlamaIndex, and custom agent pipelines.
 
 - [Agent Firewalls & Gateways (Runtime Protection)](#-agent-firewalls--gateways-runtime-protection)
 - [Red Teaming & Vulnerability Scanners](#-red-teaming--vulnerability-scanners)
