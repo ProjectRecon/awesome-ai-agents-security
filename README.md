@@ -43,6 +43,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Agentic Radar](https://github.com/splx-ai/agentic-radar)** - A static analysis tool that visualizes agent workflows (LangGraph, CrewAI, AutoGen). It detects risky tool usage, permission loops, and maps them to known vulnerabilities.
 - **[Agent Bound](https://github.com/ElPaisano/agent-bound)** - A design-time analysis tool that calculates "Agentic Entropy"—a metric to quantify the unpredictability and risk of infinite loops or unconstrained actions in agent architectures.
 - **[Checkov](https://github.com/bridgecrewio/checkov)** - While primarily for IaC, Checkov includes policies for scanning AI infrastructure and configurations to prevent misconfigurations in deployment.
+- **[Lurkr](https://github.com/agentveil-protocol/lurkr)** - A local, read-only static scanner for AI-agent and MCP projects that checks risky capability surfaces before deployment, including manifest-vs-code capability mismatch, shell tools without approval metadata, external MCP endpoints, and credential flows into LLM calls.
 
 ## 📦 Sandboxing & Isolation Environments
 *Secure runtimes to prevent agents from damaging the host system during code execution.*
