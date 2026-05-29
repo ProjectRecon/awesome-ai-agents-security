@@ -36,6 +36,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Garak](https://github.com/leondz/garak)** - The "Nmap for LLMs." A vulnerability scanner that probes models for hallucination, data leakage, and prompt injection susceptibilities.
 - **[A2A Scanner](https://github.com/cisco-ai-defense/a2a-scanner)** - A scanner by Cisco designed to inspect "Agent-to-Agent" communication protocols for threats, validating agent identities and ensuring compliance with communication specs.
 - **[Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)** - A framework for building specialized security agents for offensive and defensive operations, often used in CTF (Capture The Flag) scenarios.
+- **[UltraProbe](https://github.com/ppcvote/ultraprobe)** - Free hosted AI prompt audit. Scans a system prompt against 17 OWASP-LLM-Top-10-aligned attack vectors (incl. 5 agent-specific: encoding injection, function semantic immutability, memory provenance, cross-agent auth, transaction guardrails) and returns an A–F grade with per-vector evidence. Hosted at ultralab.tw/probe; CLI also published as `ultraprobe` on npm. MIT.
 
 ## 🔍 Static Analysis & Linters
 *Tools to analyze agent configuration and logic code before deployment.*
@@ -58,6 +59,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** - NVIDIA’s toolkit for adding programmable rails to LLM-based apps. It ensures agents stay on topic, avoid jailbreaks, and adhere to defined safety policies.
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
+- **[prompt-defense-audit](https://github.com/ppcvote/prompt-defense-audit)** - Deterministic system-prompt scanner (npm). 17 attack vectors including 5 agent-specific ones (encoding-aware injection, function semantic immutability, memory provenance, cross-agent auth, transaction guardrails). v1.5 adds 12 Unicode smuggling categories (Tag chars, Math alphanumeric, BiDi, Variation Selectors) and an output scanner with rules for JSON schema injection, OCR / Whisper / PDF modality marker hijack, tool-call argument injection, and SVG foreignObject HTML. Pure regex, <5ms, zero AI cost. MIT.
 
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
