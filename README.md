@@ -26,6 +26,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
+- **[Vertex](https://vertex.blue)** - A zero-trust proxy that sits between agents and the APIs they call, vaulting the real provider key and handing the agent a scoped token instead. It enforces per-service and per-method policy, operator spend caps, and taint-based blocking of sensitive calls after an agent touches untrusted context, with every action written to a tamper-evident audit chain.
 
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools to test agents for security flaws, loop conditions, and unauthorized actions.*
