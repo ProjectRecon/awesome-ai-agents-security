@@ -59,6 +59,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 
+- **[AI Agent Risk Self-Check](https://github.com/MAUROCERON/ai-agent-security-mini-audit)** - A client-side checklist for reviewing prompt injection boundaries, tool permissions, browser/file access, approval gates, logging, and credential handling before launching an AI agent workflow.
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
 
