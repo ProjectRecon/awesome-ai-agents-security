@@ -68,6 +68,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Tools to manage agent identity (non-human identities).*
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** - On-chain trust scoring and reputation verification for AI agent wallets on Solana. Provides MCP tools (`score_agent`, `preflight_check`) for querying verifiable wallet reputation before authorizing agent actions, and signed trust receipts via x402 micropayments. Prevents agent impersonation attacks in multi-agent systems.
 
 ---
 
