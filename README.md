@@ -26,6 +26,9 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
+- **[Tenet](https://www.trytenet.com)** - A runtime authority layer that sits between the agent and the world: every tool call goes through `tenet.execute()`, which evaluates it against policy and returns allow, escalate, or block before the action fires. Enforces hard cost caps, human approval gates on irreversible actions, and a tamper-evident audit log, with service credentials injected server-side so agent code never holds API keys.
+
+
 
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools to test agents for security flaws, loop conditions, and unauthorized actions.*
