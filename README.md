@@ -14,6 +14,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - [Static Analysis & Linters](#-static-analysis--linters)
 - [Sandboxing & Isolation Environments](#-sandboxing--isolation-environments)
 - [Guardrails & Compliance](#-guardrails--compliance)
+- [Governance & Provenance](#-governance--provenance)
 - [Benchmarks & Datasets](#-benchmarks--datasets)
 - [Identity & Authentication](#-identity--authentication)
 - [Contributing](#-contributing)
@@ -61,6 +62,11 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides a drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
+
+## Governance & Provenance
+*Tools that create audit records, provenance metadata, or review evidence for agent-assisted work.*
+
+- **[AI Change Passport](https://github.com/P-r-e-m-i-u-m/ai-change-passport)** - A GitHub Action and CLI that creates signed provenance reports for AI-assisted pull requests, including sensitive file touches, dependency changes, workflow changes, test signals, risk scoring, and human approval guidance.
 
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
