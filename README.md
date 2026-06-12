@@ -46,6 +46,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Checkov](https://github.com/bridgecrewio/checkov)** - While primarily for IaC, Checkov includes policies for scanning AI infrastructure and configurations to prevent misconfigurations in deployment.
 - **[ATR (Agent Threat Rules)](https://github.com/Agent-Threat-Rule/agent-threat-rules)** - 108 open-source regex detection rules for AI agent threats (prompt injection, tool poisoning, credential exfiltration, skill compromise). <1ms per scan. Adopted by Cisco AI Defense.
 
+- **[Firmis Scanner](https://github.com/riteshkew/firmis-scanner)** - Full-lifecycle security CLI for AI agents: 224 rules across 8 platforms, runtime monitoring hooks (Claude Code, Gemini CLI, Cursor), ML-based behavioral scoring, auto-fix engine, and compliance mapping (SOC2, AI Act, GDPR, NIST, OWASP).
 ## 📦 Sandboxing & Isolation Environments
 *Secure runtimes to prevent agents from damaging the host system during code execution.*
 
