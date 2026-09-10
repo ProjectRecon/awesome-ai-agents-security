@@ -72,6 +72,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
+- **[ProxyKey](https://github.com/neostorm112-boop/proxykey-mcp)** - A credential vault and proxy for AI agents: real API keys stay AES-256-GCM encrypted on the server, and agents receive revocable passes with IP binding and rate limits instead. The MCP server can issue, rotate and revoke passes but has no "read the real key" operation. Free hosted service; the encryption module is open source.
 
 ---
 
