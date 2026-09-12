@@ -10,6 +10,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 ## 📖 Table of Contents
 - [Agent Firewalls & Gateways (Runtime Protection)](#-agent-firewalls--gateways-runtime-protection)
+- **[Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril)** - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
 - [Red Teaming & Vulnerability Scanners](#-red-teaming--vulnerability-scanners)
 - [Static Analysis & Linters](#-static-analysis--linters)
 - [Sandboxing & Isolation Environments](#-sandboxing--isolation-environments)
