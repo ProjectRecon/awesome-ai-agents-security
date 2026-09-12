@@ -20,7 +20,8 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 ---
 
-## 🛡️ Agent Firewalls & Gateways (Runtime Protection)
+## 🛡️ Agent Firewalls & Gateways (Runtime Protection)- **[agent-canary](https://github.com/DorianChn/agent-canary)** - Zero-false-positive runtime tripwires for AI agents: registers inert decoy MCP tools and plants unique canary tokens in honeypot files, so a prompt-injected agent touches them and fires an alert with full attack context (JSONL audit trail, desktop/webhook, CI token scan).
+
 *Tools that sit between the agent and the world to filter traffic, prevent unauthorized tool access, and block prompt injections.*
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
