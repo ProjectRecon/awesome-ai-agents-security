@@ -21,7 +21,14 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ---
 
 ## 🛡️ Agent Firewalls & Gateways (Runtime Protection)
+
 *Tools that sit between the agent and the world to filter traffic, prevent unauthorized tool access, and block prompt injections.*
+
+- **[agent-canary](https://github.com/DorianChn/agent-canary)** - Zero-false-positive runtime tripwires for AI agents: registers inert decoy MCP tools and plants unique canary tokens in honeypot files, so a prompt-injected agent touches them and fires an alert with full attack context (JSONL audit trail, desktop/webhook, CI token scan).
+
+- **[agent-gate](https://github.com/DorianChn/agent-gate)** - A deny-by-default policy gateway for AI-agent tool calls with parameter-level authorization, short-lived HMAC credentials, MCP filtering, audit logs, and webhook alerts.
+- **[traceplay](https://github.com/DorianChn/traceplay)** - A local, deterministic VCR-style recorder and replayer for AI-agent trajectories with tool-call assertions, forbidden-tool checks, and zero-token CI replay.
+- **[RepoSieve](https://github.com/DorianChn/reposieve)** - A local-first context packer for AI coding agents that filters repositories, detects and redacts secret-like values, and enforces a token budget.
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
@@ -66,6 +73,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
+- **[research-notes](https://github.com/DorianChn/research-notes)** - Prompt-injection document fixtures for testing whether AI agents and summarizers follow embedded instructions or accurately report source content.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
