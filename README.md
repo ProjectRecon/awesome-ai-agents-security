@@ -70,6 +70,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
 
+- **[AffixIO](https://github.com/AffixIO/SDK)** - npm Agentic Pay Kit with x402BeforePay host-side action attestation before pay (signed yes/no on host, not person KYC), agenticPay, mcpToolGate, and KYA createAgentTrust.
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
 
