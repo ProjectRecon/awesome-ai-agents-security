@@ -66,6 +66,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
+- **[hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench)** - A deterministic known-pattern jailbreak regression benchmark that classifies endpoint responses as refusal, partial, or compliance; not a proof of safety.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
