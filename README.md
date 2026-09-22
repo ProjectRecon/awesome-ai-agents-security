@@ -62,6 +62,8 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides a drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
 
+- **[Patronus Ark](https://github.com/patronus-protect/patronus-security)** - Rust/Python library for local scanning of agent prompts and tool traffic for prompt injection, secrets, PII and tool risks (GPL-3.0-only; model-backed scanning requires downloaded assets).
+
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
 
