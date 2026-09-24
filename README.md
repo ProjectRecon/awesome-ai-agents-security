@@ -66,6 +66,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
+- **[Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive)** - An open database of real-world AI agent security incidents (prompt injection, rogue agents, sandbox escapes, agent supply chain, MCP), each with a primary source and flags for confirmed victims and AI involvement. JSON/CSV exports, CC BY 4.0.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
