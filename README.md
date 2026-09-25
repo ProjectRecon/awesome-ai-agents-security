@@ -66,6 +66,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
+- **[agent-evidence-vectors](https://github.com/probityai/agent-evidence-vectors)** - A conformance corpus and reference verifier for agent execution evidence, with 461 vectors across eight corpora at v0.10.1 and one Go verifier that recomputes each outcome from the bytes an attestation carries.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
