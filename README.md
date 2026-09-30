@@ -36,6 +36,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Garak](https://github.com/leondz/garak)** - The "Nmap for LLMs." A vulnerability scanner that probes models for hallucination, data leakage, and prompt injection susceptibilities.
 - **[A2A Scanner](https://github.com/cisco-ai-defense/a2a-scanner)** - A scanner by Cisco designed to inspect "Agent-to-Agent" communication protocols for threats, validating agent identities and ensuring compliance with communication specs.
 - **[Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)** - A framework for building specialized security agents for offensive and defensive operations, often used in CTF (Capture The Flag) scenarios.
+- **[Ziran](https://github.com/taoq-ai/ziran)** - Security testing framework for AI agents that models tools as a graph to find dangerous tool chains, execution-level side effects, and multi-phase exploits.
 
 ## 🔍 Static Analysis & Linters
 *Tools to analyze agent configuration and logic code before deployment.*
