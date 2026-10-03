@@ -26,6 +26,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
 - **[Immunity Agent](https://github.com/PrismorSec/immunity-agent)** - Security-focused AI agent runtime for scanning prompt injection, MCP risks, unsafe package installs, and dangerous agent actions before execution.
+- **[HOL Guard](https://github.com/hashgraph-online/hol-guard)** - Local-first runtime firewall for AI coding agents: intercepts shell, secrets, MCP, and package installs before they run. Apache-2.0. Docs: https://hol.org/guard. Scan is not a safety guarantee.
 
 ## ⚔️ Red Teaming & Vulnerability Scanners
 *Offensive tools to test agents for security flaws, loop conditions, and unauthorized actions.*
