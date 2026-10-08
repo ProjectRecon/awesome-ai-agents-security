@@ -61,7 +61,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides a drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
-- **[sofagent](https://github.com/KongFangXun/sofagent)** - Open-source harness for governing AI coding agents: 24 commit-time audit rules over git diffs (secrets, out-of-scope edits, prompt injection) with HMAC-signed audit trail and snapshot rollback; a full MCP toolset; enforces policies at commit time via git hooks, runtime-agnostic.
+- **[sofagent](https://github.com/KongFangXun/sofagent)** - Open-source harness for governing AI coding agents: 28 commit-time audit rules over git diffs (secrets, out-of-scope edits, prompt injection) with HMAC-signed audit trail and snapshot rollback; a full MCP toolset; enforces policies at commit time via git hooks, runtime-agnostic.
 
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
