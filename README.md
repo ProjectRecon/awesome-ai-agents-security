@@ -24,6 +24,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Tools that sit between the agent and the world to filter traffic, prevent unauthorized tool access, and block prompt injections.*
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
+- **[Arcezia](https://arcezia.com/agent-action-authorization/)** - Hosted check that answers each AI agent tool call before it runs: allow, hold for a person, or refuse, with a signed record of each answer; free tier.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
 - **[Immunity Agent](https://github.com/PrismorSec/immunity-agent)** - Security-focused AI agent runtime for scanning prompt injection, MCP risks, unsafe package installs, and dangerous agent actions before execution.
 
