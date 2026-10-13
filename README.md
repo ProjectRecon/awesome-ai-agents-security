@@ -66,6 +66,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
+- **[aaesverify](https://github.com/aaes-ai/aaesverify)** - Apache-2.0 offline verifier for AAES agent-action evidence exports, checking hash chains, Merkle roots, signatures, and anchors against supplied trust material without proving complete capture or downstream execution.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
