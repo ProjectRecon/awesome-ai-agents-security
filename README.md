@@ -72,6 +72,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
+- **[whotyped](https://github.com/mthamil107/whotyped)** - Server-side detector that tells human SSH sessions from AI-agent ones on Linux hosts, including when an agent uses a person's key. Scores sshd logs, auditd records and `/proc`, classifies each session as human, declared agent or suspected agent, and defines an `AI_AGENT` over-SSH convention so cooperative agents can declare themselves, adopted upstream by ssh-mcp. Monitor-only; alerts carry their evidence.
 
 ---
 
