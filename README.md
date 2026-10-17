@@ -24,6 +24,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Tools that sit between the agent and the world to filter traffic, prevent unauthorized tool access, and block prompt injections.*
 
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
+- **[Deedglass](https://github.com/deedglass/deedglass)** - A self-hosted gate between agents and their tools (any MCP server, Postgres, GitHub, Slack, Stripe test mode): policies allow, deny or hold each call for a person's approval; for Postgres it checks the rows a transaction really committed against what the agent reported, keeps signed hash-linked records and plans undo.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
 - **[Immunity Agent](https://github.com/PrismorSec/immunity-agent)** - Security-focused AI agent runtime for scanning prompt injection, MCP risks, unsafe package installs, and dangerous agent actions before execution.
 
