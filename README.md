@@ -72,6 +72,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
+- **[Scalekit](https://www.scalekit.com/agentkit)** - Auth layer for AI agent integrations and tool calling. Stores per-user OAuth tokens in a managed vault so agents never handle raw credentials, enforces scoped tool permissions, and records audit logs for every tool call across 500+ connectors. Proprietary with a free tier; SDKs are open source (MIT).
 
 ---
 
