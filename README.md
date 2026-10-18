@@ -70,6 +70,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
 
+- **[Truthlocks MAIP](https://github.com/truthlocks/maip)** - Open-source agent-identity and signed-receipt integrations with a runnable offline signature and tampering example; current authorisation and transparency inclusion require separate checks.
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
 
