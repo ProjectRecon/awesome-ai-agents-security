@@ -66,6 +66,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
+- **[Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails)** - An open benchmark that runs 18 decision models and Amazon Bedrock Guardrails on the same 9,975 labelled guardrail checks, including direct and indirect prompt attacks, and reports balanced accuracy, false-block rate and cost per 1,000 checks. Per-row results and the dataset are public.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
