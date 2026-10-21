@@ -36,6 +36,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Garak](https://github.com/leondz/garak)** - The "Nmap for LLMs." A vulnerability scanner that probes models for hallucination, data leakage, and prompt injection susceptibilities.
 - **[A2A Scanner](https://github.com/cisco-ai-defense/a2a-scanner)** - A scanner by Cisco designed to inspect "Agent-to-Agent" communication protocols for threats, validating agent identities and ensuring compliance with communication specs.
 - **[Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)** - A framework for building specialized security agents for offensive and defensive operations, often used in CTF (Capture The Flag) scenarios.
+- **[MCPWatch](https://mcpwatch-zeta.vercel.app)** - A free service that scans the top 500 MCP servers from the official MCP Registry every night, assigns a 0-100 security score (OSV advisories, maintenance, transparency, stability, adoption), and alerts on supply-chain-relevant changes like new domains, packages, commands or required secrets.
 
 ## 🔍 Static Analysis & Linters
 *Tools to analyze agent configuration and logic code before deployment.*
