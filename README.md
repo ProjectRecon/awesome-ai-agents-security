@@ -62,6 +62,8 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides a drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
 
+- **[Kortix Claude Tag kit](https://github.com/ArtemShatokhin/claude-tag-open-source-kit)** - A working Kortix project (the open-source AI Operating System) that runs an agent in Slack under deny-by-default grants: per-tool `Allow`/`Ask`/`Block` connector rules, a `risk` default policy that holds every unmatched write, approval cards in the thread, the agent acting as its own service account rather than as the person who tagged it, and a preflight that fails a manifest with a blanket grant.
+
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
 
