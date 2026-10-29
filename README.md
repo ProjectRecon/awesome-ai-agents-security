@@ -61,6 +61,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides a drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
+- **[Agent-Airlock](https://github.com/sattyamjjain/agent-airlock)** - An in-process Python decorator for agent and MCP tool calls that validates arguments, strips ghost arguments and applies an allow/deny tool policy, with an optional human-approval hook.
 
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
