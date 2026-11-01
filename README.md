@@ -23,6 +23,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## 🛡️ Agent Firewalls & Gateways (Runtime Protection)
 *Tools that sit between the agent and the world to filter traffic, prevent unauthorized tool access, and block prompt injections.*
 
+- **[Agent Runtime Guard](https://github.com/DSHCorrectover/agent-runtime-guard)** - Fail-closed MCP/tool-call runtime interceptor with offline-verifiable Ed25519 receipts. Zero runtime dependencies (`npx -y agent-runtime-guard`).
 - **[AgentGateway](https://github.com/agentgateway/agentgateway)** - A Linux Foundation project providing an AI-native proxy for secure connectivity (A2A & MCP protocols). It adds RBAC, observability, and policy enforcement to agent-tool interactions.
 - **[Envoy AI Gateway](https://gateway.envoyproxy.io/)** - An Envoy-based gateway that manages request traffic to GenAI services, providing a control point for rate limiting and policy enforcement.
 - **[Immunity Agent](https://github.com/PrismorSec/immunity-agent)** - Security-focused AI agent runtime for scanning prompt injection, MCP risks, unsafe package installs, and dangerous agent actions before execution.
@@ -40,6 +41,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## 🔍 Static Analysis & Linters
 *Tools to analyze agent configuration and logic code before deployment.*
 
+- **[correctover-scan](https://github.com/DSHCorrectover/correctover-scan)** - MCP and AI agent security scanner (config + published-bundle modes, SARIF, OWASP AISVS). `npx correctover-scan`.
 - **[Aguara](https://github.com/garagon/aguara)** - A static security scanner for AI agent skills and MCP server configurations. Detects prompt injection, credential leaks, data exfiltration, and supply-chain attacks with 173 built-in rules, 4 analysis layers, and remediation guidance.
 - **[Agentic Radar](https://github.com/splx-ai/agentic-radar)** - A static analysis tool that visualizes agent workflows (LangGraph, CrewAI, AutoGen). It detects risky tool usage, permission loops, and maps them to known vulnerabilities.
 - **[Agent Bound](https://github.com/ElPaisano/agent-bound)** - A design-time analysis tool that calculates "Agentic Entropy"—a metric to quantify the unpredictability and risk of infinite loops or unconstrained actions in agent architectures.
@@ -65,6 +67,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
 
+- **[MCP Atlas Census](https://github.com/DSHCorrectover/mcp-atlas-census)** - Largest known live MCP tool census: 229,827 tools with `input_schema` from 13,120 servers (CC0).
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
 
 ## 🆔 Identity & Authentication
