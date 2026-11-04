@@ -66,6 +66,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
+- **[Agentic AI Test Checklist 110](https://huggingface.co/datasets/srinivaspadmanabhuni/agentic-ai-test-checklist-110)** - An open CC BY 4.0 Hugging Face dataset of 110 test cases for autonomous AI agents, including prompt injection and excessive agency, each with a manual procedure and evidence to capture and control references to OWASP Agentic 2026 (ASI codes), NIST AI RMF and the EU AI Act.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
