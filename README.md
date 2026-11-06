@@ -66,7 +66,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
-- **[mcp-defense-bench](https://github.com/Gowthaman90/mcp-defense-bench)** - Vendor-neutral benchmark measuring how much of the Model Context Protocol (MCP) attack surface a defensive proxy/gateway/scanner covers (22–24 vectors), crosswalked to NIST AI RMF and the OWASP LLM/Agentic Top 10; ships fixtures, tool adapters, a live leaderboard, and a citable DOI.
+- **[mcp-defense-bench](https://github.com/Gowthaman90/mcp-defense-bench)** - Vendor-neutral benchmark measuring how much of the Model Context Protocol (MCP) attack surface a defensive proxy/gateway/scanner covers (41 vectors; 78 development and 75 blind held-out test cases plus a 337-item benign corpus), crosswalked to NIST AI RMF, the OWASP LLM/Agentic Top 10, EU AI Act obligations and ISO/IEC 42001 controls; ships fixtures, tool adapters, a live leaderboard, and a citable DOI.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
