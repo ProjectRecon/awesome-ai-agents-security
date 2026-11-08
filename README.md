@@ -72,6 +72,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
+- **[Know Your Agent](https://github.com/RishabhPande/know-your-agent)** - Educational Python toolkit for signed agent credentials, scoped delegation and revocable authorization.
 
 ---
 
