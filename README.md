@@ -72,6 +72,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
+- **[Agent Name Service (ANS)](https://github.com/agentnameservice/ans)** - Open-source registry, append-only transparency log and offline verifier that bind an AI agent's identity to verified control of a DNS domain, with version-bound X.509 certificates and SCITT receipts. Reference implementation of the IETF draft [draft-narajala-courtney-ansv2](https://datatracker.ietf.org/doc/draft-narajala-courtney-ansv2/); Go, Java and Rust SDKs live in the [agentnameservice](https://github.com/agentnameservice) org. The companion [Agent Trust Discovery](https://github.com/agentnameservice/agent-trust-discovery) scores registered agents on integrity, identity, solvency, behavior and safety, per the open [Trust Index specification](https://github.com/agentnameservice/trust-index-spec).
 
 ---
 
