@@ -66,6 +66,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 *Resources to evaluate agent security performance.*
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
+- **[Pasportoo](https://pasportoo.com)** - Exams for AI agents taken over MCP inside Claude or ChatGPT (a coding exam; an honesty exam in early access), scored by deterministic rules with no AI judge, with results issued as verifiable Agent Passports. Free tier available.
 
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
