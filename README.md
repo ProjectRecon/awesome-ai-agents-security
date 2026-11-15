@@ -67,6 +67,8 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[CVE Bench](https://github.com/uiuc-kang-lab/cve-bench)** - A benchmark for evaluating an AI agent's ability to exploit real-world web application vulnerabilities (useful for testing defensive agents).
 
+- **[AgentLeak](https://github.com/Privatris/AgentLeak)** - A benchmark for evaluating privacy leakage across communication channels in multi-agent LLM systems.
+
 ## 🆔 Identity & Authentication
 *Tools to manage agent identity (non-human identities).*
 
