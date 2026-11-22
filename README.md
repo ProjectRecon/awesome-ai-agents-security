@@ -53,6 +53,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)** - A Kubernetes Native project providing a Sandbox Custom Resource Definition (CRD) to manage isolated, stateful workloads for AI agents.
 - **[Agent-Infra Sandbox](https://github.com/agent-infra/sandbox)** - An "All-In-One" sandbox combining Browser, Shell, VSCode, and File System access in a single Docker container, optimized for agentic tasks.
 - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** - Formerly OpenDevin, this platform includes a secure runtime environment for autonomous coding agents to operate without accessing the host machine's sensitive files.
+- **[Sandscale](https://sandscale.dev)** - A hosted service that runs each AI agent run in its own Firecracker microVM, with the network off until an allowlist opens it, Vault secrets, DLP on prompts and MCP calls, approvals and an audit log.
 
 ## 🚧 Guardrails & Compliance
 *Middleware to enforce business logic and safety policies on inputs and outputs.*
