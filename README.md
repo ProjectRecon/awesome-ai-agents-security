@@ -72,6 +72,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 
 - **[WSO2](https://github.com/wso2)** - An identity management solution that treats AI agents as first-class identities, enabling secure authentication and authorization for agent actions.
 - **[OneCLI](https://github.com/onecli/onecli)** - Open-source credential vault for AI agents. A Rust HTTP gateway intercepts agent requests and injects API credentials transparently, so agents never handle raw keys. Supports per-agent scoped tokens and AES-256-GCM encryption at rest.
+- **[aquaman](https://github.com/tech4242/aquaman)** - Local credential proxy for AI agents. API keys stay in a vault you already use and a separate daemon injects them into outbound requests, so the agent holds a marker, not a key. Agents request credentials and a person approves in a native dialog, and each use is recorded in a hash-chained audit log.
 
 ---
 
