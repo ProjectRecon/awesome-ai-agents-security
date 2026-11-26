@@ -61,6 +61,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Guardrails](https://github.com/guardrails-ai/guardrails)** - A Python framework for validating LLM outputs against structural and semantic rules (e.g., "must return valid JSON," "must not contain PII").
 - **[LiteLLM Guardrails](https://github.com/BerriAI/litellm)** - While known for model proxying, LiteLLM includes built-in guardrail features to filter requests and responses across multiple LLM providers.
 - **[OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard)** - An official OWASP project that detects and blocks AI agent memory poisoning attacks (OWASP ASI06). Provides a drop-in middleware for LangChain, AutoGen, and CrewAI pipelines with real-time threat detection, sanitization hooks, and audit logging. `pip install agent-memory-guard`.
+- **[agent-check](https://github.com/daviderez4/nodatachat-core)** - A local CLI that audits what Claude Code and Codex agents actually did, from the session history already on your machine: per category, what the agent attempted (credential files, secret searches, outbound commands), what succeeded, and how many secret-looking values entered its context. Sends nothing, needs no account, and outputs counts by default. Apache-2.0.
 
 ## 📊 Benchmarks & Datasets
 *Resources to evaluate agent security performance.*
