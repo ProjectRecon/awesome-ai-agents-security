@@ -53,6 +53,7 @@ This list is organized by the **security lifecycle** of an autonomous agent, cov
 - **[Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)** - A Kubernetes Native project providing a Sandbox Custom Resource Definition (CRD) to manage isolated, stateful workloads for AI agents.
 - **[Agent-Infra Sandbox](https://github.com/agent-infra/sandbox)** - An "All-In-One" sandbox combining Browser, Shell, VSCode, and File System access in a single Docker container, optimized for agentic tasks.
 - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** - Formerly OpenDevin, this platform includes a secure runtime environment for autonomous coding agents to operate without accessing the host machine's sensitive files.
+- **[Casama computer image and egress proxy](https://github.com/casama-ai/casama/tree/main/infra)** - AGPL-3.0 container images for agent computers, plus the forward proxy that is the route to the internet for Docker computers and refuses private, loopback, link-local and reserved addresses. Part of Casama, whose server engine is closed source.
 
 ## 🚧 Guardrails & Compliance
 *Middleware to enforce business logic and safety policies on inputs and outputs.*
